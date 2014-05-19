@@ -4,7 +4,7 @@
 //
 //  Created by JPush on 12-8-15.
 //  Copyright (c) 2012年 HXHG. All rights reserved.
-//  Version: 1.6.3
+//  Version: 1.7.0
 
 #import <Foundation/Foundation.h>
 
@@ -34,6 +34,25 @@ extern NSString * const kAPServiceErrorNotification;             // 错误提示
 // 用于过滤出正确可用的tags，如果总数量超出最大限制则返回最大数量的靠前的可用tags
 + (NSSet*)filterValidTags:(NSSet*)tags;
 
-+ (NSString *)openUDID; // UDID
+/**
+ *  记录页面停留时间功能。
+ *  startLogPageView和stopLogPageView为自动计算停留时间
+ *  beginLogPageView为手动自己输入停留时间
+ *
+ *  @param pageName 页面名称
+ *  @param seconds  页面停留时间
+ */
++ (void)startLogPageView:(NSString*)pageName;
++ (void)stopLogPageView:(NSString*)pageName;
++ (void)beginLogPageView:(NSString*)pageName duration:(int)seconds;
 
+/**
+ *  get the UDID
+ */
++ (NSString *)openUDID DEPRECATED_ATTRIBUTE; // UDID
+
+/**
+ *  get RegistionID
+ */
++ (NSString *)registrionID;
 @end

@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC88A7318EA51CC006C3011 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC88A7218EA51CC006C3011 /* Security.framework */; };
+		1FC88A8C18EA8FAA006C3011 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC88A8B18EA8FAA006C3011 /* libz.1.dylib */; };
+		1FC88A9218EA9526006C3011 /* libPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC88A9118EA9526006C3011 /* libPushSDK.a */; };
 		DD0799AB1654D5E7006FCFEE /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2DE95E160AB11F0092BF6A /* AppDelegate.h */; };
 		DD0799AC1654D5EF006FCFEE /* PushTest-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = DD2DE95D160AB11F0092BF6A /* PushTest-Prefix.pch */; };
 		DD0799AE1654D603006FCFEE /* APService.h in Headers */ = {isa = PBXBuildFile; fileRef = DD266BB81613428600F3C9D1 /* APService.h */; };
 		DD0A0C4D16ACF90900E62BFD /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = DD0A0C4C16ACF90900E62BFD /* sound.caf */; };
-		DD266BBA1613428600F3C9D1 /* libPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD266BB91613428600F3C9D1 /* libPushSDK.a */; };
 		DD2DE950160AB11F0092BF6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2DE94F160AB11F0092BF6A /* UIKit.framework */; };
 		DD2DE952160AB11F0092BF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2DE951160AB11F0092BF6A /* Foundation.framework */; };
 		DD2DE954160AB11F0092BF6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2DE953160AB11F0092BF6A /* CoreGraphics.framework */; };
@@ -26,9 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FC88A7218EA51CC006C3011 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1FC88A8B18EA8FAA006C3011 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		1FC88A9118EA9526006C3011 /* libPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushSDK.a; sourceTree = "<group>"; };
 		DD0A0C4C16ACF90900E62BFD /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound.caf; path = ../sound.caf; sourceTree = "<group>"; };
 		DD266BB81613428600F3C9D1 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
-		DD266BB91613428600F3C9D1 /* libPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushSDK.a; sourceTree = "<group>"; };
 		DD2DE94B160AB11F0092BF6A /* PushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2DE94F160AB11F0092BF6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD2DE951160AB11F0092BF6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC88A8C18EA8FAA006C3011 /* libz.1.dylib in Frameworks */,
+				1FC88A9218EA9526006C3011 /* libPushSDK.a in Frameworks */,
+				1FC88A7318EA51CC006C3011 /* Security.framework in Frameworks */,
 				DD2DE96F160AB18B0092BF6A /* SystemConfiguration.framework in Frameworks */,
 				DD2DE96D160AB1800092BF6A /* CoreTelephony.framework in Frameworks */,
 				DD2DE96B160AB1710092BF6A /* CoreFoundation.framework in Frameworks */,
@@ -58,7 +65,6 @@
 				DD2DE950160AB11F0092BF6A /* UIKit.framework in Frameworks */,
 				DD2DE952160AB11F0092BF6A /* Foundation.framework in Frameworks */,
 				DD2DE954160AB11F0092BF6A /* CoreGraphics.framework in Frameworks */,
-				DD266BBA1613428600F3C9D1 /* libPushSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				DD266BB81613428600F3C9D1 /* APService.h */,
-				DD266BB91613428600F3C9D1 /* libPushSDK.a */,
+				1FC88A9118EA9526006C3011 /* libPushSDK.a */,
 			);
 			name = lib;
 			path = ../lib;
@@ -96,6 +102,8 @@
 		DD2DE94E160AB11F0092BF6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FC88A8B18EA8FAA006C3011 /* libz.1.dylib */,
+				1FC88A7218EA51CC006C3011 /* Security.framework */,
 				DD2DE96E160AB18B0092BF6A /* SystemConfiguration.framework */,
 				DD2DE96C160AB1800092BF6A /* CoreTelephony.framework */,
 				DD2DE96A160AB1710092BF6A /* CoreFoundation.framework */,

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     UILabel *_infoLabel;
