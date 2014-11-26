@@ -14,7 +14,7 @@
 ##技术支持
 - 请查看官网最新的技术支持文档：[http://docs.jpush.cn/](http://docs.jpush.cn)
 
-- 若需要手动下载请到[官网下载最新的版本](https://www.jpush.cn/sdk/ios/)
+- 若需要手动下载请到[官网下载最新的版本](http://docs.jpush.cn/display/dev/iOS)
 
 ##其他说明
 - 建议每次发布都更新一下最新版本
