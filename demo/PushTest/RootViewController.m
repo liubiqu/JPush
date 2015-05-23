@@ -52,10 +52,7 @@
                       object:nil];
 
 // Do any additional setup after loading the view from its nib.
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-  _UDIDValueLabel.text = [APService openUDID];
-#pragma clang diagnostic pop
+
   _UDIDValueLabel.textColor = [UIColor colorWithRed:0.0 / 255
                                               green:122.0 / 255
                                                blue:255.0 / 255
