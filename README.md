@@ -2,7 +2,41 @@
 
 提供JPush SDK的镜像，由于官方没有提供相应的服务，因此做个镜像方便使用JPush服务的项目提供cocoapods服务，已提交到[官方`spec`](https://github.com/CocoaPods/Specs)
 
-##最近更新(v1.7.0 update 2014-05-04) 
+##当前版本1.8.4
+
+##JPush iOS SDK v1.8.2 版本Change Log
+优化改进：修复一些可能引起崩溃问题  
+优化改进：修复部分情况下获取不到 RegistrationID 的问题
+
+##JPush iOS SDK v1.8.1 版本Change Log  
+优化改进：修改与部分第三方 SDK 变量冲突问题  
+优化改进：修复 iOS5 版本 Demo 按钮异常  
+
+
+##JPush iOS SDK v1.8.0 版本Change Log  
+新增功能：增加 iOS8 支持  
+新增功能：增加本地推送 API  
+新增功能：增加地理位置信息上报  
+新增功能：增加崩溃日志上报  
+新增功能：增加日志等级修改  
+优化改进：修改上报重试机制  
+优化改进：修复 setTagAlias 时回调类被释放时崩溃bug  
+优化改进：全新的参考 Demo  
+
+
+##JPush iOS SDK v1.7.4 版本 Change Log  
+新增功能：增加设置 badge 值更新到 JPush 服务器功能。  
+此 SDK 版本配合服务器端推送通知 badge +1 功能使用，实现群推 iOS 通知时 badge 值各用户不同的值。  
+
+
+##JPush iOS SDK v1.7.3 版本发布  
+
+Change Log  
+优化改进：配合 API V3，更好的支持自定义消息的解析。  
+升级提示  
+建议升级。
+
+##JPush iOS SDK v1.7.0 update 2014-05-04) 
 新增功能：支持 RegistrationID 推送；
 新增功能：增加页面统计上报；
 修复BUG：修复上个版本在特定情况下崩溃的BUG。
