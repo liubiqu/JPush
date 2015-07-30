@@ -9,7 +9,7 @@
     "JPush": "support@jpush.cn"
   },
   "source": {
-    "git": "https://github.com/liubiqu/JPush.git",
+    "git": "https://git.oschina.net/liubiqu/JPush.git",
     "tag": "1.8.4"
   }, 
   "source_files": "lib/*.h",
