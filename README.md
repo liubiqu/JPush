@@ -2,7 +2,19 @@
 
 提供JPush SDK的镜像，由于官方没有提供相应的服务，因此做个镜像方便使用JPush服务的项目提供cocoapods服务，已提交到[官方`spec`](https://github.com/CocoaPods/Specs)
 
-##当前版本1.8.4
+##当前版本1.8.5
+##JPush iOS SDK v1.8.5
+- 更新时间 2015-07-30
+
+- Change Log
+修复Bug：解决与第三方库冲突引起的编译出错.
+- 升级提示
+建议升级！
+- 升级指南
+替换 lib 文件夹里的文件 .a 文件为新版本；
+替换 lib 文件夹里的文件 .h 文件为新版本；
+工程添加libz.dylib、Security.framework两个库；
+新版本不再需要 libPushSDK-Simulator.a 。如果你的老版本 SDK 包含此文件，请删除。
 
 ##JPush iOS SDK v1.8.2 版本Change Log
 优化改进：修复一些可能引起崩溃问题  
