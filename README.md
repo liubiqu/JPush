@@ -2,7 +2,13 @@
 
 提供JPush SDK的镜像，由于官方没有提供相应的服务，因此做个镜像方便使用JPush服务的项目提供cocoapods服务，已提交到[官方`spec`](https://github.com/CocoaPods/Specs)
 
+##使用说明
+- cocoapods导入
+```pod 'JPush'```
+
 ##当前版本1.8.5
+- 最近更新说明官方连接：http://docs.jpush.io/updates/
+
 ##JPush iOS SDK v1.8.5
 - 更新时间 2015-07-30
 
