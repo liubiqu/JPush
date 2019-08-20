@@ -1,6 +1,6 @@
 #JPush 官方iOS版本SDK
 
-提供JPush SDK的镜像，由于官方没有提供相应的服务，因此做个镜像方便使用JPush服务的项目提供cocoapods服务，已提交到[官方`spec`](https://github.com/CocoaPods/Specs/tree/master/Specs/JPush)
+提供JPush SDK的镜像，由于官方没有提供相应的服务，因此做个镜像方便使用JPush服务的项目提供cocoapods服务，已提交到[官方`spec`](https://cocoapods.org/pods/JPush)
 
 ##使用说明
 - cocoapods导入
@@ -13,7 +13,7 @@
 - 1个工作日内回复
 
 ##当前版本1.8.5
-- 最近更新说明官方连接：http://docs.jpush.io/updates/
+- 最近更新说明官方连接：http://docs.jiguang.cn/jpush/updates/
 
 ##JPush iOS SDK v1.8.5
 - 更新时间 2015-07-30
@@ -70,9 +70,9 @@ Change Log
 - 历史版本的文件分别存放于对应版本的目录
 
 ##技术支持
-- 请查看官网最新的技术支持文档：[http://docs.jpush.io/](http://docs.jpush.io/)
+- 请查看官网最新的技术支持文档：[https://docs.jiguang.cn](https://docs.jiguang.cn)
 
-- 若需要手动下载请到[官网下载最新的版本](http://docs.jpush.io/resources/)
+- 若需要手动下载请到[官网下载最新的版本](https://docs.jiguang.cn/jpush/resources/)
 
 ##其他说明
 - 建议每次发布都更新一下最新版本
